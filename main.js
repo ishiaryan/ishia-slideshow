@@ -13,7 +13,6 @@ window.onload = function() {
 
     backButton.onclick = back;
     nextButton.onclick = next;
-
 }
 
 function next() {
@@ -23,9 +22,7 @@ function next() {
         imageElement.src = filePath;
     
         slideNumberElement.textContent = `Slide ${slideNumber + 1}/6`;
-    
     }
-
 }
 
 function back() {
@@ -35,9 +32,5 @@ function back() {
         imageElement.src = filePath
 
         slideNumberElement.textContent = `Slide ${slideNumber + 1}/6`;
-
     }
-    
-
-
 }
